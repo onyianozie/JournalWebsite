@@ -1,0 +1,207 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./assets/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: "vidaloka";
+    font-weight: 400px;
+    font-size: 16px;
+    background-repeat: no-repeat;
+}
+
+/* ------ Navigation Bar--=------ */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.navbar li a{
+    color: white;
+}
+a {
+    text-decoration: none;
+    text-align: end;
+    list-style: none;
+}
+/* ------- Text Tags------- */
+
+h1{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+h2{
+    font-family: "vidaloka";
+    font-size: 50px;
+    font-weight: 400px;
+    padding-bottom: 4px;
+}
+h3{
+    font-size: 25px;
+}
+h6{
+    color: #8D9BA0;
+    text-transform: uppercase;
+
+}
+p{
+    font-family: "roboto regular";
+    font-size: 18px;
+    padding: 20px 0px;
+    line-height: 25px;
+}
+.one{
+    background: white;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+/* ------ Elements -------- */
+.image {
+    padding:100px;
+    
+}
+.imageone{
+    height: 600px;
+    width: 560px;
+}
+
+.button{
+    font-family: "vidaloka";
+    background-color:#D45121;
+    font-size: 18px;
+    padding:20px 20px;
+    text-transform: uppercase;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+.two{
+    background-image: url(./assets/image2.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.about{
+    margin-right: 90px;
+}
+
+.goal{
+    margin-top: -70px;
+    padding: 5px;
+}
+
+.number{
+    margin-right: 2%;
+}
+
+.three{
+    background-color: white;
+    text-align: center;
+    margin:30px;
+    padding:0px;
+    margin-bottom: 150px;
+  
+}
+.title{
+    text-align: center;
+}
+.box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: auto;
+    box-sizing: content-box;
+    width: 500px;
+    text-align: left;
+    
+
+}
+.gallery{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+
+.title1{
+    background-color: #EBEFF1;
+    height: 120px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: -25px;
+    padding: 40px;
+}
+.title2{
+    background-color: #EBEFF1;
+    height: 120px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: -25px;
+    padding: 40px;
+
+}
+.title3{
+    background-color: #EBEFF1;
+    height: 120px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: -25px;
+    padding: 40px;
+
+}
+
+/* ---------- Footer ----- */
+footer{
+    background-color: #0C1D24;
+    align-items: center;
+    color: #8D9BA0;
+    text-align: center;
+    padding: 50px;
+}
+.logo2{
+   height: 60px;
+   margin: 50px;
+   cursor: pointer;
+}
+
+
